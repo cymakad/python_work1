@@ -139,3 +139,5 @@ frequent_itemsets, starttime = Apriori('a1dataset.txt')
 # Print the result and running time
 print('Running Time: {}s\nFrequent itemsets are {}:\n{}'.format(
         (time() - starttime), len(frequent_itemsets), frequent_itemsets))
+
+End
